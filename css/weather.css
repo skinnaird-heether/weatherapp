@@ -32,12 +32,11 @@
 }
 
 .circle {
-    background-color: #26C4D7;
-    border-style: solid;
-    border-radius: 500px;
-    border-color: orange;
     height: 400px;
-
+    margin-top: 30px;
+    align-content: center;
+    background-image: url(/images/sunny.png);
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -49,24 +48,21 @@
     background-color: rgb(38, 196, 215, 0.19);
 }
 
-.form-inline {
-    margin-top: 20px;
-}
-
-.form-control {
+#zipCode {
     font-family: Fieldwork;
-    color: #26C4D7;
+    font-size: 20px;
 }
 
 .btn {
     font-family: Vast Shadow;
 }
 
-.sun {
+.description {
     font-family: Righteous;
     font-size: 40px;
-    color: #26C4D7;
-    padding: 20px; 
+    color: #26C4D7; 
+    text-align: center;
+    padding: 20px;
 
 }
 
@@ -74,14 +70,14 @@
     font-family: Righteous;
     font-size: 40px;
     color: #26C4D7;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
 
 }
 
 .temp {
     font-family: Vast Shadow;
     color: orange;
-    font-size: 125px;
+    font-size: 150px;
     padding-top: 40px;
 }
 
